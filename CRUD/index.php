@@ -1,13 +1,10 @@
 
 <?php 
-// require_once("../php/component.php");
-
+ require_once("./php/component.php");
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +31,8 @@
         </div>
 
         <div class="pt-2">
-          <?php include ("./php/component.php")?>
+          <?php inputElement(icon:"<i class='fas fa-swatchbook'></i>", placeholder:"Book Name", name:"book_name", value:"");
+          ?>
 
         </div>
         </form>
